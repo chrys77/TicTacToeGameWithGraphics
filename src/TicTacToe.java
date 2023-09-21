@@ -21,6 +21,7 @@ public class TicTacToe implements ActionListener {
         frame.setSize(800, 800);
         frame.setLayout(new BorderLayout());
         frame.setLocationRelativeTo(null);
+        frame.setTitle("Tic-Tac-Toe, by Dobro");
         frame.setVisible(true);
 
         textField.setBackground(Color.DARK_GRAY);
